@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+	<meta name="theme-color" content="#040818">
+	<title>Almost, in Every Way</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=IM+Fell+DW+Pica:ital@0;1&family=IM+Fell+DW+Pica+SC&family=IM+Fell+English:ital@0;1&family=IM+Fell+English+SC&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+</head>
+<body>
+	<div class="sky" id="sky" aria-hidden="true"></div>
+	<main class="scene" id="scene">
+		<div class="rig" id="rig">
+			<div class="floor" id="floor"></div>
+			<div class="stage" id="stage">
+				<div class="book" id="book" role="group" aria-label="Poem book"></div>
+			</div>
+		</div>
+	</main>
+	<div class="hint" id="hint"></div>
+	<nav class="ctl" aria-label="Page controls">
+		<button id="prev" type="button" aria-label="Previous page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14.5 5.5L8 12l6.5 6.5"/></svg></button>
+		<div id="count" aria-live="polite"></div>
+		<button id="next" type="button" aria-label="Next page"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M9.5 5.5L16 12l-6.5 6.5"/></svg></button>
+	</nav>
+</body>
+</html>
